@@ -1,7 +1,6 @@
-import { Model, Sequelize } from 'sequelize';
-import { password } from '../../config/database';
+import Sequelize, { Model } from 'sequelize';
 
-class user extends Model {
+class User extends Model {
   static init(sequelize) {
     super.init(
       {
@@ -16,3 +15,5 @@ class user extends Model {
     );
   }
 }
+
+export default User;
