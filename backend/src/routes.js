@@ -14,5 +14,6 @@ const routes = new Router();
 routes.post('/users', UserController.store);
 routes.post('/sessions', SessionControler.store);
 routes.put('/users', authMiddleware, UserController.update);
+routes.get('/users', authMiddleware, UserController.show);
 
 export default routes;

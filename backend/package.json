@@ -9,12 +9,13 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.3.0",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^6.3.3"
+    "sequelize": "^6.3.3",
+    "yup": "^0.29.1"
   },
   "scripts": {
     "dev": "nodemon src/index.js",
     "dev:debug": "nodemon --inspect src/index.js",
-    "cor":"yarn eslint --fix src --ext .js"
+    "cor": "yarn eslint --fix src --ext .js"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
