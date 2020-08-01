@@ -22,6 +22,8 @@ class AvaliableController {
       },
     });
 
+    console.log(Appointments);
+
     return res.json(Appointments);
   }
 }
